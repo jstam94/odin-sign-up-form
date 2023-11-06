@@ -1,0 +1,37 @@
+
+
+.container{
+    padding: 0;
+    display: flex;
+}
+
+.banner-half{
+    background-image: url(halie-west-hero.jpg);
+    background-size: contain;
+    width:33vw;
+    height: 100vh;
+    color: white;
+}
+
+.banner-half a{
+    color: inherit;
+}
+
+.form-half div{
+    height: 33%;
+}
+
+button{
+    background: #596D48;
+}
+
+input:focus{
+    appearance: none;
+    border: 1px blue solid;
+    box-shadow: 10px 5px 5px black;
+}
+
+form{
+    box-shadow: 10px 5px 5px black;
+    width: 100%;
+}
