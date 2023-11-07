@@ -6,7 +6,7 @@
 }
 
 .banner-half{
-    background-image: url(halie-west-hero.jpg);
+    background-image: url(../halie-west-hero.jpg);
     background-size: contain;
     width:33vw;
     height: 100vh;
