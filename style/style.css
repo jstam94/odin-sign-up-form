@@ -23,6 +23,10 @@
 
 button{
     background: #596D48;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 5px;
 }
 
 input:focus{
