@@ -47,12 +47,28 @@ input:focus{
     box-shadow: 10px 5px 5px black;
 }
 
-form{
-    box-shadow: 10px 5px 5px black;
-    width: 100%;
-}
-
 .top, .bottom {
     background: rgb(224, 220, 220);
     flex: 1;
+}
+
+
+
+form{
+    box-shadow: 10px 5px 5px black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+
+.form-row{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
 }
