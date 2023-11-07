@@ -17,8 +17,20 @@
     color: inherit;
 }
 
-.form-half div{
-    height: 33%;
+.banner-half{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    align-items: center;
+}
+
+h1{
+    position: absolute;
+}
+
+.form-half{
+    display: flex;
+    flex-direction: column;
 }
 
 button{
@@ -38,4 +50,9 @@ input:focus{
 form{
     box-shadow: 10px 5px 5px black;
     width: 100%;
+}
+
+.top, .bottom {
+    background: rgb(224, 220, 220);
+    flex: 1;
 }
