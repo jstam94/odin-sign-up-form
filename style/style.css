@@ -126,10 +126,6 @@ input{
     font-size: 1.25rem;
 }
 
-img{
-    object-fit: contain;
-}
-
 
 .heading-wrapper{
     background: rgba(0, 0, 0, 0.692);
@@ -137,7 +133,15 @@ img{
     text-align: center;
     position: absolute;
     top: 160px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
 }
+
+
+
+
+
  h1{
     font-size: 7rem;
     display: block;
@@ -145,4 +149,10 @@ img{
     opacity: 100%;
     text-transform: uppercase;
     font-family: 'norsebold';
+ }
+
+ img{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
  }
