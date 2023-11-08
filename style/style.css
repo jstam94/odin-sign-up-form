@@ -60,7 +60,7 @@ form{
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 20px 40px;
+    padding: 20px 50px;
 }
 
 .form-row{
@@ -79,6 +79,8 @@ form{
     flex-direction: column;
     justify-content: end;
     padding: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 .top p:nth-child(1){
@@ -94,8 +96,30 @@ form{
 
 label{
     text-transform: uppercase;
+    font-size: .75em;
 }
 
 em{
     font-style: italic;
+}
+
+.bottom a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+input:focus{
+    outline-color:blue;
+    outline: 5px;
+}
+
+input{
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.075);
+    font-size: 1.25rem;
 }
