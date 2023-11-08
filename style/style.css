@@ -26,11 +26,13 @@ body{
     flex-direction: column-reverse;
     position: relative;
     align-items: center;
+    flex: 1;
 }
 
 .form-half{
     display: flex;
     flex-direction: column;
+    flex: 2;
 }
 
 button{
